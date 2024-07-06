@@ -1,0 +1,126 @@
+body{
+    background-color: #192a32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#annouceBox{
+    background-color: #157174;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.winnerText{
+    color: #31c3be;
+    font-size: 35px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.quitButton{
+    background-color: #a8bec9;
+    color: #157174;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nextRoundButton{
+    background-color: #eeb341;
+    color: #157174;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+}
+.divbody{
+    width: 250px;
+}
+.inputContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+input[readonly]{
+    height: 76px;
+    width: 76px;
+    border-radius: 15px;
+    background-color: #1f3540;
+    text-align: center;
+    font-size: 60px;
+}
+.topdiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.refreshButton{
+    background-color: #a7bfcb;
+    width: 28px;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+.x{
+    color: #31c3be;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.o{
+    color: #eeb341;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.turnbox{
+    background-color: 1f363e;
+    color: #a7bdc8;
+    border-radius: 5px;
+    width: 40%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottomdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.xWins{
+    background-color: #32c3bd;  
+    color: #157174; 
+    width: 28%;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px;
+    font-size: 13px;
+}
+.ties{
+    background-color: #a8bec9;
+    color: #157174;
+    width: 28%;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px;
+    font-size: 15px;
+}
+.oWins{
+    background-color: #f2b137;
+    color: #157174;
+    width: 28%;
+    text-align: center;
+    border-radius: 6px;
+    padding: 3px;
+    font-size: 13px;
+}
+#xName,
+#oName{
+    white-space: no-wrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 100%;
+}
